@@ -13,7 +13,7 @@ To zoom in on audio:
 
 1. On the Edit toolbar, click **Zoom in** until you reach the desired zoom level.
 
-    <img src="./assets/images/Edit Toolbar - Zoom In.png" /><br/>
+    <img src="/learning-audacity/assets/images/Edit Toolbar - Zoom In.png" /><br/>
 
     !!! solid-keyboard "Shortcut" 
 
@@ -29,7 +29,7 @@ To zoom out of audio:
 
 - On the Edit toolbar, click **Zoom out** until you reach the desired zoom level.
 
-    <img src="./assets/images/Edit Toolbar - Zoom Out.png" />
+    <img src="/learning-audacity/assets/images/Edit Toolbar - Zoom Out.png" />
 
     !!! solid-keyboard "Shortcut"     
 
@@ -45,13 +45,13 @@ To fit an audio selection to the window width:
 
 1. On the Edit toolbar, click the **Selection tool**.
 
-    <img src="./assets/images/Tools Toolbar - Selection Tool.png" />
+    <img src="/learning-audacity/assets/images/Tools Toolbar - Selection Tool.png" />
 
 2. Select the section of audio that you want to fit into the project window.
 
 3. Click **Fit selection to width**.
 
-    <img src="./assets/images/Edit Toolbar - Fit selection to width.png" /><br/>
+    <img src="/learning-audacity/assets/images/Edit Toolbar - Fit selection to width.png" /><br/>
 
     !!! solid-keyboard "Shortcut" 
 
@@ -67,7 +67,7 @@ To fit the project to the window width:
 
 - On the Edit toolbar, click **Fit project to width**.
 
-    <img src="./assets/images/Edit Toolbar - Fit project to width.png" /><br/>
+    <img src="/learning-audacity/assets/images/Edit Toolbar - Fit project to width.png" /><br/>
 
     !!! solid-keyboard "Shortcut" 
     
@@ -83,7 +83,7 @@ To toggle between zoom levels:
 
 - On the Edit toolbar, click **Zoom toggle**.
 
-    <img src="./assets/images/Edit Toolbar - Zoom Toggle.png" /><br/>
+    <img src="/learning-audacity/assets/images/Edit Toolbar - Zoom Toggle.png" /><br/>
 
     !!! solid-keyboard "Shortcut"     
     
