@@ -1,0 +1,88 @@
+site_name: Learning Audacity 
+site_url: https://rgervacio.github.io/learning-audacity
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - naviation.top
+    - search.suggest
+    - search.highlight
+    - navigation.footer
+    - content.tabs.link
+  language: en
+  font:
+    text: Open Sans
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+      primary: indigo
+      accent: indigo
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+      primary: indigo
+      accent: indigo
+  favicon: images/favicon.png  
+  icon:
+    logo: material/volume-high
+    admonition:
+      note: material/pencil
+      tip: material/lightbulb-on
+extra:
+  social:
+    - icon: material/web
+      link: https://rgervacio.com/
+    - icon: material/email
+      link: mailto:rgervacio@outlook.com
+    - icon: fontawesome/brands/linkedin 
+      link: https://www.linkedin.com/in/rachelle-gervacio/
+extra_css:
+  - stylesheets/extra.css
+copyright: Copyright &copy; 2023 Rachelle Gervacio
+markdown_extensions:
+  - tables
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true 
+  - attr_list
+  - md_in_html      
+nav:
+- Introduction: 'index.md'
+- Audacity project window: 'audacity-project-window.md'
+- Keyboard shortcuts: 'keyboard-shortcuts.md'
+- Managing a project:
+    - 'Get started with a project': 'managing-a-project/get-started-with-a-project.md'
+    - 'Manage tracks': 'managing-a-project/manage-tracks.md'
+    - 'Convert a mono or stereo track': 'managing-a-project/convert-a-mono-or-stereo-track.md'
+    - 'Save and back up a project': 'managing-a-project/save-and-back-up-a-project.md'
+    - 'Export a project': 'managing-a-project/export-a-project.md'
+- Playing and recording a project :
+    - 'Change recording settings': 'playing-and-recording-a-project/change-recording-settings.md'
+    - 'Change playback settings': 'playing-and-recording-a-project/change-playback-settings.md'
+    - 'Control audio playback': 'playing-and-recording-a-project/control-audio-playback.md'
+    - 'Record audio': 'playing-and-recording-a-project/record-audio.md'    
+    - 'Monitor audio': 'playing-and-recording-a-project/monitor-audio.md'
+- Editing a project:
+    - 'Select audio': 'editing-a-project/select-audio.md'
+    - 'Label audio': 'editing-a-project/label-audio.md'
+    - 'Zoom in on and out of audio': 'editing-a-project/zoom-in-on-and-out-of-audio.md'
+    - 'Undo and redo actions': 'editing-a-project/undo-and-redo-actions.md'
+    - 'Copy, cut, paste, and duplicate audio': 'editing-a-project/copy-cut-paste-and-duplicate-audio.md'
+    - 'Delete and trim audio': 'editing-a-project/delete-and-trim-audio.md'
+    - 'Silence audio': 'editing-a-project/silence-audio.md'
+    - 'Move and align audio': 'editing-a-project/move-and-align-audio.md'
+    - 'Split and join clips': 'editing-a-project/split-and-join-clips.md'
+    - 'Adjust track gain': 'editing-a-project/adjust-track-gain.md'
+    - 'Pan audio': 'editing-a-project/pan-audio.md'
+    - 'Mute and solo a track': 'editing-a-project/mute-and-solo-a-track.md'
+    - 'Remove background noise': 'editing-a-project/remove-background-noise.md'
+    - 'Mix tracks': 'editing-a-project/mix-tracks.md'
+- Applying common audio effects:
+    - 'Change overall volume level': 'applying-common-audio-effects/change-overall-volume-level.md'
+    - 'Gradually change volume level': 'applying-common-audio-effects/gradually-change-volume-level.md'
+    - 'Change tempo, speed, and pitch': 'applying-common-audio-effects/change-tempo-speed-and-pitch.md'
