@@ -1,6 +1,6 @@
 # Control audio playback
 
-Controlling audio playback involves using the Transport toolbar to play, loop, pause, stop, and skip audio.
+Controlling audio playback involves using the Transport toolbar to play, loop, pause, stop, or skip audio.
 </br>
 
 ## Play

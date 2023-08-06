@@ -1,6 +1,6 @@
 # Mute and solo a track
 
-Muting and soloing a track allows you to silence and play specific tracks in a project.
+Muting and soloing a track allow you to silence and play specific tracks in a project.
 <br/>
 
 ## Mute a track
@@ -13,7 +13,7 @@ Muting a track silences a track during playback.
 
 To mute a track:
 
-- On the Track control panel, click **Mute**.
+- On the Track control panel, click the **Mute button**.
 
     <img src="/learning-audacity/assets/images/Track Control Panel - Mute.png" />
 
@@ -29,7 +29,7 @@ To mute a track:
 
 To unmute a track:
 
-- On the Track control panel, click **Mute** again.
+- On the Track control panel, click the **Mute button** again.
 
 
 <br/>
@@ -40,7 +40,7 @@ Soloing a track mutes all other tracks except the selected track during playback
 
 To solo a track:
 
-- On the Track control panel, click **Solo**.
+- On the Track control panel, click the **Solo button**.
 
     <img src="/learning-audacity/assets/images/Track Control Panel - Solo.png" />
 
@@ -52,6 +52,6 @@ To solo a track:
 
 To unsolo a track:
 
-- On the Track control panel, click **Solo** again.
+- On the Track control panel, click the **Solo button** again.
 
 <br/>

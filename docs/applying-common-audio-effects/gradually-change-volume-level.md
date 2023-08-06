@@ -1,6 +1,6 @@
 # Gradually change volume level
 
-Gradually changing volume level involves using the **Envelope tool** or **Fade in**, **Fade out**, **Crossfade tracks**, or **Crossfade clips effects**. All five of these methods can gradually increase or decrease volume level. However, the type of method(s) that you should use will depend on how you want the audio to sound.
+Gradually changing volume level involves using the **Envelope tool** or **Fade in**, **Fade out**, **Crossfade tracks**, or **Crossfade clips effects**. All five of these methods can gradually increase or decrease volume level. However, the type of method(s) that you should use depends on how you want the audio to sound.
 
 <table width="100%">
   <colgroup>
@@ -84,7 +84,7 @@ To fade in audio:
 
     <img src="/learning-audacity/assets/images/Tools Toolbar - Selection Tool.png" />
 
-1. Select the section of audio that you want to fade in.
+1. Select the track(s) or section(s) of audio that you want to fade in.
 
 1. Go to **Effect** \> **Fade In**.
 
@@ -108,7 +108,7 @@ To fade out audio:
 
     <img src="/learning-audacity/assets/images/Tools Toolbar - Selection Tool.png" />
 
-1. Select the section of audio that you want to fade out.
+1. Select the track(s) or section(s) of audio that you want to fade out.
 
 1. Go to **Effect** \> **Fade Out**.
 

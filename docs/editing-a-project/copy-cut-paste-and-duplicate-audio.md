@@ -1,11 +1,11 @@
 # Copy, cut, paste, and duplicate audio
 
-Copying, cutting, pasting, and duplicating audio allows you to replicate, remove, and insert audio.
+Copying, cutting, pasting, and duplicating audio allow you to replicate, remove, and insert audio.
 <br/>
 
 ## Copy and paste audio
 
-Copying and pasting audio involves replicating an audio selection and inserting it elsewhere in the same track, in another track in the same project, or in a different project.
+Copying and pasting audio involve replicating an audio selection and inserting it elsewhere in the same track, in another track in the same project, or in a different project.
 
 To copy and paste audio:
 
@@ -33,7 +33,7 @@ To copy and paste audio:
 
 ## Cut and paste audio
 
-Cutting and pasting audio involves removing an audio selection and inserting it elsewhere in the same track, in another track in the same project, or in a different project.
+Cutting and pasting audio involve removing an audio selection and inserting it elsewhere in the same track, in another track in the same project, or in a different project.
 
 To cut and paste audio:
 

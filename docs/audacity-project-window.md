@@ -70,11 +70,10 @@
 </table>
 
 !!! tip
-
-    You can move the toolbars to different locations in the project window.  
-    To move a toolbar:<br/>&nbsp;&nbsp;&nbsp;&nbsp;
-    1. Drag the **toolbar** **grabber**.<br/>&nbsp;&nbsp;&nbsp;&nbsp;
-    2. Move the toolbar to the desired location in the project window.<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  
+    To move a toolbar to a different location in the project window:<br/>&nbsp;&nbsp;&nbsp;
+    1. Drag the **toolbar** **grabber**.
+    <br/>&nbsp;&nbsp;&nbsp;&nbsp;2. Move the toolbar to the desired location in the project window.<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <img src="../assets/images/Edit Toolbar - Grabber.png" /><br/><br/>
     To reset the toolbars to their original positions, go to **View** \> **Toolbars** \> **Reset Toolbars**.
 

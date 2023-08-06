@@ -1,6 +1,6 @@
 # Manage tracks
 
-Managing tracks involves adding, naming, moving, collapsing, and deleting tracks and changing track appearance.
+Managing tracks involves handling the number, organization, and appearance of tracks in the project.
 </br>
 
 
@@ -22,6 +22,18 @@ To add a track:
 
     - To adjust speed and pitch changes, select **Time Track**.
 
+<br/>
+
+## Delete a track
+
+Deleting a track allows you to erase an existing track from a project.
+
+To delete a track:
+
+- On the Track control panel, click the **X button**.
+
+    <img src="/learning-audacity/assets/images/Track Control Panel - Delete.png" />
+  
 <br/>
 
 ## Name a track and clip
@@ -104,18 +116,6 @@ To expand a track:
 - On the Track control panel, click the **downwards arrow button**.
 
     <img src="/learning-audacity/assets/images/Track Control Panel - Uncollapse.png" />
-  
-<br/>
-
-## Delete a track
-
-Deleting a track allows you to erase an existing track from a project.
-
-To delete a track:
-
-- On the Track control panel, click the **X button**.
-
-    <img src="/learning-audacity/assets/images/Track Control Panel - Delete.png" />
   
 <br/>
 

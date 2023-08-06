@@ -1,6 +1,6 @@
 # Change overall volume level
 
-Changing overall volume level involves using the **Amplify**, **Normalize**, or **Compressor effects**. All three of these methods can increase and decrease overall volume level. However, the type of method(s) that you should use will depend on how you want the audio to sound.
+Changing overall volume level involves using the **Amplify**, **Normalize**, or **Compressor effects**. All three of these methods can increase and decrease overall volume level. However, the type of method(s) that you should use depends on how you want the audio to sound.
 
 <table width="100%">
   <colgroup>
@@ -97,7 +97,7 @@ To amplify audio:
 
     <img src="/learning-audacity/assets/images/Tools Toolbar - Selection Tool.png"  />
 
-1. Select the section of audio that you want to amplify.
+1. Select the track(s) or section(s) of audio that you want to amplify.
 
 1. Go to **Effect** \> **Amplify**.
 
@@ -172,11 +172,11 @@ To normalize audio:
     
     <img src="/learning-audacity/assets/images/Tools Toolbar - Selection Tool.png" />
 
-1. Select the section of audio that you want to normalize.
+2. Select the track(s) or section(s) of audio that you want to normalize.
 
-1. Go to **Effect** \> **Normalize**.
+3. Go to **Effect** \> **Normalize**.
 
-1. In the dialog box, configure your preferred normalization settings.
+4. In the dialog box, configure your preferred normalization settings.
 
     <img src="/learning-audacity/assets/images/Normalize dialog box.png" />
 
@@ -208,7 +208,7 @@ To normalize audio:
     !!! tip 
         To save the normalization settings as a preset for future use, click **Presets & settings** \> **Save Preset**.
 
-2. Click **Apply**.
+5. Click **Apply**.
 
 <br/>
 
@@ -231,11 +231,11 @@ To compress audio:
 
     <img src="/learning-audacity/assets/images/Tools Toolbar - Selection Tool.png" />
 
-1. Select the section of audio that you want to compress.
+2. Select the track(s) or section(s) of audio that you want to compress.
 
-1. Go to **Effect** \> **Compressor**.
+3. Go to **Effect** \> **Compressor**.
 
-1. In the dialog box, configure your preferred compression settings.
+4. In the dialog box, configure your preferred compression settings.
 
     <img src="/learning-audacity/assets/images/Compressor dialog box.png" />
 

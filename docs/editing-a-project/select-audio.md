@@ -11,6 +11,10 @@ To select a point of audio:
 
     <img src="/learning-audacity/assets/images/Tools Toolbar - Selection Tool.png"  />
 
+    !!! solid-keyboard "Shortcut"
+        
+        Press <kbd>F1</kbd> .    
+
 2. Click the part of the track that you want to select.
 
     <img src="/learning-audacity/assets/images/Audio Selection - Point of audio.png"  />
@@ -26,10 +30,6 @@ To select a section of audio:
 1. On the Tools toolbar, click the **Selection tool**.
 
     <img src="/learning-audacity/assets/images/Tools Toolbar - Selection Tool.png"  /><br/>
-
-    !!! solid-keyboard "Shortcut"
-        
-        Press <kbd>F1</kbd> .
 
 2. Drag the **cursor** over the part of the track(s) that you want to select.
 
@@ -78,7 +78,7 @@ size:
 
 To select a track:
 
-- On the Track control panel, click **Select**.
+- Click the track's **Track control panel** or the **Select button**.
 
     <img src="/learning-audacity/assets/images/Track Control Panel - Select.png" />
 
@@ -88,13 +88,11 @@ To select a track:
 
 To select multiple tracks:
 
-1. On the first track’s Track control panel, click **Select**.
+1. Press and hold <kbd>Ctrl</kbd> .
+   
+2. Click the tracks’ **Track control panels** or the **Select button**.
 
     <img src="/learning-audacity/assets/images/Track Control Panel - Select.png" />
-
-2. Press and hold <kbd>Ctrl</kbd> .
-
-3. On the other tracks’ Track control panels, click **Select**.
 
 <br/>
 

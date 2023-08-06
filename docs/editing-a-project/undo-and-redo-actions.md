@@ -1,6 +1,6 @@
 # Undo and redo actions
 
-Undoing and redoing actions allows you to cancel and restore editing actions that you performed on your project.
+Undoing and redoing actions allow you to cancel and restore editing actions that you performed on your project.
 
 !!! tip
 

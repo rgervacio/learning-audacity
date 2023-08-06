@@ -78,7 +78,7 @@ To pan audio left and right:
 
     !!! note
 
-        For more information on how to use the Envelope tool to smoothen volume level, see <a href="/learning-audacity/applying-common-audio-effects/gradually-change-volume-level/#adjust-volume-changes">Adjust volume changes</a>.
+        To learn more about smoothening volume levels using the Envelope tool, see <a href="/learning-audacity/applying-common-audio-effects/gradually-change-volume-level/#adjust-volume-changes">Adjust volume changes</a>.
 
 6. Convert both of the mono tracks to a single stereo track (optional):
 

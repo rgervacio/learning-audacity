@@ -1,6 +1,6 @@
 # Change tempo, speed, and pitch
 
-Changing tempo, speed, and pitch involves using a **time track** or the **Change tempo**, **Change speed**, or **Change pitch** effects. The type of method(s) that you should use will depend on how you want the audio to sound.
+Changing tempo, speed, and pitch involves using a **time track** or the **Change tempo**, **Change speed**, or **Change pitch** effects. The type of method(s) that you should use depends on how you want the audio to sound.
 
 <table width="100%">
   <colgroup>
@@ -75,7 +75,7 @@ To change overall tempo:
 
     <img src="/learning-audacity/assets/images/Tools Toolbar - Selection Tool.png" />
 
-1. Select the section of audio where you want to change the tempo.
+1. Select the track(s) or section(s) of audio where you want to change the tempo.
 
 1. Go to **Effect** \> **Change Tempo**.
 
@@ -145,7 +145,7 @@ To change overall speed:
 
     <img src="/learning-audacity/assets/images/Tools Toolbar - Selection Tool.png" />
 
-1. Select the section of audio where you want to change the speed.
+1. Select the track(s) or section(s) of audio where you want to change the speed.
 
 1. Go to **Effect** \> **Change Speed**.
 
@@ -214,7 +214,7 @@ To change overall pitch:
 
     <img src="/learning-audacity/assets/images/Tools Toolbar - Selection Tool.png" />
 
-1. Select the section of audio where you want to change the pitch.
+1. Select the track(s) or section(s) of audio where you want to change the pitch.
 
 1. Go to **Effect** \> **Change Pitch**.
 

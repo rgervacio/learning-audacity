@@ -1,6 +1,6 @@
 # Move and align audio
 
-Moving and aligning audio allows you to reposition tracks in the project window and clips along the Timeline.
+Moving and aligning audio allow you to reposition tracks in the project window and clips along the Timeline.
 
 !!! note 
 

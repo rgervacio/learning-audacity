@@ -26,6 +26,8 @@ To monitor recording level:
 
     !!! note 
     
+        If you’re recording in stereo, the gradient meter bars will move and change independently in separate left (**L**) and right (**R**) channels in the Recording meter.
+
         Ideally, the input signal should be somewhere **between -12 dB and -6 dB**. To prevent creating potential clipping or distortion, don’t let the input signal exceed -3 dB or reach the red area in the far right of the meter. Clipping occurs when the input signal exceeds 0 dB.  
 
         <img src="/learning-audacity/assets/images/Recording Meter Toolbar - Monitor Recording Level - Ideal and Clipping.png"  />
@@ -79,7 +81,9 @@ current peak level, recent peak level, and maximum peak level.
     <img src="/learning-audacity/assets/images/Playback Meter Toolbar - Playback Level - Peak Levels.png" style="width:3.03087in;height:1.9685in" />
 
     !!! note
-        
+
+        If you're playing a track that was recorded in stereo, the gradient meter bars will move and change independently in separate left (**L**) and right (**R**) channels in the Playback meter.        
+
         Ideally, the output signal should be somewhere **between -12 dB and -6 dB**. To prevent hearing potential clipping or distortion, don’t let the output signal exceed -3 dB or reach the red area in the far right of the meter.  
         
         <img src="/learning-audacity/assets/images/Playback Meter Toolbar - Monitor Playback Level - Ideal and Clipping.png" style="width:3.293in;height:0.65652in" />  

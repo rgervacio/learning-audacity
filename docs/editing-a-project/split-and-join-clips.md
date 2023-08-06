@@ -1,6 +1,6 @@
 # Split and join clips
 
-Splitting and joining clips allows you to break up and merge clips inside a track.
+Splitting and joining clips allow you to break up and merge clips inside a track.
 <br/>
 
 ## Split clips

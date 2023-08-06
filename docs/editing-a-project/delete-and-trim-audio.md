@@ -1,6 +1,6 @@
 # Delete and trim audio
 
-Deleting and trimming audio allows you to erase and hide audio.
+Deleting and trimming audio allow you to erase and hide audio.
 </br>
 
 ## Delete audio

@@ -1,6 +1,6 @@
 # Save and back up a project
 
-Saving and backing up a project involves preserving your work for later use.
+Saving and backing up a project involve preserving your work for later use.
 </br>
 
 ## Save a project
