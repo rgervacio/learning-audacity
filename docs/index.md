@@ -35,9 +35,9 @@ To get started, download Audacity and other optional add-ons:
 
 To get the most out of Audacity and this guide, start with the following topics:
 
-- <a href="/audacity-project-window">Audacity project window</a> – Learn about Audacity’s graphical user interface (GUI). 
-- <a href="/playing-and-recording-a-project/change-recording-settings">Change recording settings</a> – Configure your recording preferences.
-- <a href="/playing-and-recording-a-project/change-playback-settings">Change playback settings</a> – Configure your playback preferences.
+- <a href="/learning-audacity/audacity-project-window">Audacity project window</a> – Learn about Audacity’s graphical user interface (GUI). 
+- <a href="/learning-audacity/playing-and-recording-a-project/change-recording-settings">Change recording settings</a> – Configure your recording preferences.
+- <a href="/learning-audacity/playing-and-recording-a-project/change-playback-settings">Change playback settings</a> – Configure your playback preferences.
 
 <br/>
 
@@ -45,7 +45,7 @@ To get the most out of Audacity and this guide, start with the following topics:
 
 To increase your productivity with Audacity, use keyboard shortcuts:
 
-- <a href="/keyboard-shortcuts">Keyboard shortcuts</a> – A reference containing commonly used shortcuts in Audacity.
+- <a href="/learning-audacity/keyboard-shortcuts">Keyboard shortcuts</a> – A reference containing commonly used shortcuts in Audacity.
 
 <br/>
 
