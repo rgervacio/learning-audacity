@@ -41,7 +41,7 @@ extra:
       link: https://www.linkedin.com/in/rachelle-gervacio/
 extra_css:
   - stylesheets/extra.css
-copyright: Copyright &copy; 2023 Rachelle Gervacio
+copyright: Copyright &copy; 2025 Rachelle Gervacio
 markdown_extensions:
   - tables
   - admonition
