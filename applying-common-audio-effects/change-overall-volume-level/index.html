@@ -1,0 +1,1651 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://rgervacio.github.io/learning-audacity/applying-common-audio-effects/change-overall-volume-level/">
+      
+      
+        <link rel="prev" href="../../editing-a-project/mix-tracks/">
+      
+      
+        <link rel="next" href="../gradually-change-volume-level/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.50">
+    
+    
+      
+        <title>Change overall volume level - Learning Audacity</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.a40c8224.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+  
+  
+    
+    
+  
+    
+    
+  
+  
+  <style>:root{--md-admonition-icon--note:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75z"/></svg>');--md-admonition-icon--tip:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 6a6 6 0 0 1 6 6c0 2.22-1.21 4.16-3 5.2V19a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1v-1.8c-1.79-1.04-3-2.98-3-5.2a6 6 0 0 1 6-6m2 15v1a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-1zm6-10h3v2h-3zM1 11h3v2H1zM13 1v3h-2V1zM4.92 3.5l2.13 2.14-1.42 1.41L3.5 4.93zm12.03 2.13 2.12-2.13 1.43 1.43-2.13 2.12z"/></svg>');}</style>
+
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Open Sans";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#change-overall-volume-level" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Learning Audacity" class="md-header__button md-logo" aria-label="Learning Audacity" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.84-5 6.7v2.07c4-.91 7-4.49 7-8.77s-3-7.86-7-8.77M16.5 12c0-1.77-1-3.29-2.5-4.03V16c1.5-.71 2.5-2.24 2.5-4M3 9v6h4l5 5V4L7 9z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Learning Audacity
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Change overall volume level
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Learning Audacity" class="md-nav__button md-logo" aria-label="Learning Audacity" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.84-5 6.7v2.07c4-.91 7-4.49 7-8.77s-3-7.86-7-8.77M16.5 12c0-1.77-1-3.29-2.5-4.03V16c1.5-.71 2.5-2.24 2.5-4M3 9v6h4l5 5V4L7 9z"/></svg>
+
+    </a>
+    Learning Audacity
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Introduction
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../audacity-project-window/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Audacity project window
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../keyboard-shortcuts/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Keyboard shortcuts
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Managing a project
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Managing a project
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../managing-a-project/get-started-with-a-project/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Get started with a project
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../managing-a-project/manage-tracks/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Manage tracks
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../managing-a-project/convert-a-mono-or-stereo-track/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Convert a mono or stereo track
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../managing-a-project/save-and-back-up-a-project/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Save and back up a project
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../managing-a-project/export-a-project/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Export a project
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Playing and recording a project
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Playing and recording a project
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../playing-and-recording-a-project/change-recording-settings/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Change recording settings
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../playing-and-recording-a-project/change-playback-settings/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Change playback settings
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../playing-and-recording-a-project/control-audio-playback/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Control audio playback
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../playing-and-recording-a-project/record-audio/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Record audio
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../playing-and-recording-a-project/monitor-audio/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Monitor audio
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Editing a project
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Editing a project
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../editing-a-project/select-audio/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Select audio
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../editing-a-project/label-audio/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Label audio
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../editing-a-project/zoom-in-on-and-out-of-audio/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Zoom in on and out of audio
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../editing-a-project/undo-and-redo-actions/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Undo and redo actions
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../editing-a-project/copy-cut-paste-and-duplicate-audio/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Copy, cut, paste, and duplicate audio
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../editing-a-project/delete-and-trim-audio/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Delete and trim audio
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../editing-a-project/silence-audio/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Silence audio
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../editing-a-project/move-and-align-audio/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Move and align audio
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../editing-a-project/split-and-join-clips/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Split and join clips
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../editing-a-project/adjust-track-gain/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Adjust track gain
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../editing-a-project/pan-audio/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Pan audio
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../editing-a-project/mute-and-solo-a-track/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Mute and solo a track
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../editing-a-project/remove-background-noise/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Remove background noise
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../editing-a-project/mix-tracks/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Mix tracks
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Applying common audio effects
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            Applying common audio effects
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Change overall volume level
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Change overall volume level
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#amplify-audio" class="md-nav__link">
+    <span class="md-ellipsis">
+      Amplify audio
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#normalize-audio" class="md-nav__link">
+    <span class="md-ellipsis">
+      Normalize audio
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#compress-audio" class="md-nav__link">
+    <span class="md-ellipsis">
+      Compress audio
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../gradually-change-volume-level/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Gradually change volume level
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../change-tempo-speed-and-pitch/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Change tempo, speed, and pitch
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#amplify-audio" class="md-nav__link">
+    <span class="md-ellipsis">
+      Amplify audio
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#normalize-audio" class="md-nav__link">
+    <span class="md-ellipsis">
+      Normalize audio
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#compress-audio" class="md-nav__link">
+    <span class="md-ellipsis">
+      Compress audio
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="change-overall-volume-level">Change overall volume level</h1>
+<p>Changing overall volume level involves using the <strong>Amplify</strong>, <strong>Normalize</strong>, or <strong>Compressor effects</strong>. All three of these methods can increase and decrease overall volume level. However, the type of method(s) that you should use depends on how you want the audio to sound.</p>
+<table width="100%">
+  <colgroup>
+    <col style="width: 50%" />
+    <col style="width: 50%" />
+  </colgroup>
+  <thead>
+    <tr class="header">
+      <th style="text-align: center;">If you want to…</th>
+      <th style="text-align: center;">… then…</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="odd">
+      <td>
+        <ul>
+          <li>
+            <p>Increase or decrease an audio selection’s volume level by a specific decibel value</p>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <p>Increase or decrease the volume of multiple tracks by an equal amount</p><br/>
+          </li>
+          <li>
+            <p>Maintain the original relative volume difference between tracks</p>
+          </li>
+        </ul></td>
+      <td><a href="#amplify-audio">Amplify audio</a></td>
+    </tr>
+    <tr class="even">
+      <td>
+        <ul>
+          <li>
+            <p>Set an audio selection’s maximum amplitude (or loudest point) to a specific decibel value</p><br/>
+          </li>
+          <li>
+            <p>Match volume levels across multiple tracks to ensure that the audio is around the same volume</p><br/>
+          </li>
+          <li>
+            <p>Remove DC offset because the recorded or imported audio isn’t centered at the 0.0 line on the track’s Vertical scale</p>
+          </li>
+        </ul>
+      </td>
+      <td><a href="#normalize-audio">Normalize audio</a></td>
+    </tr>
+    <tr class="odd">
+      <td>
+        <ul>
+          <li>
+            <p>Reduce an audio selection’s dynamic range to make loud sections of audio quieter and quiet sections of audio louder</p><br/>
+          </li>
+          <li>  
+            <p>Create a more uniform sound throughout a track</p>
+          </li>
+        </ul>
+      </td>
+      <td><a href="#compress-audio">Compress audio</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Audacity is primarily a destructive editor. Destructive editing means that changes applied to the audio permanently change its waveform. For example, if you apply an effect, save your progress, and close the project, you’ll be unable to restore the version of the project that contained the original audio the next time you open it in Audacity. For this reason, you should have two copies of your project: one copy to edit and another to keep as a master copy with unaltered audio in case you want to undo any unwanted permanent changes. <br/><br/>
+Newer versions of Audacity (3.2.0 and newer) also have non-destructive plug-ins (“realtime effects”) that don’t change the waveform and are reversible. However, this guide currently doesn’t cover how to use these plug-ins.</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>To increase or decrease an entire track’s volume level relative to all other tracks in the project, <a href="/learning-audacity/editing-a-project/adjust-track-gain/">adjust the track gain</a> using the <strong>Gain slider</strong> instead.</p>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>Ideally, you should <a href="/learning-audacity/editing-a-project/remove-background-noise/">remove background noise</a> before adjusting a track’s volume. Increasing audio volume will also increase the volume of any background noise in the track.    </p>
+</div>
+<p><br/></p>
+<h2 id="amplify-audio">Amplify audio</h2>
+<p>Amplifying audio using the <strong>Amplify effect</strong> allows you to increase and decrease an audio selection’s volume level by a specific decibel value (up to 0 dB). It also allows you to adjust the volume of multiple tracks by an equal amount and maintain the original relative volume difference between them.</p>
+<p>Amplification is useful for:</p>
+<ul>
+<li>
+<p>Increasing the volume of quiet audio with or without clipping.</p>
+</li>
+<li>
+<p>Increasing or decreasing the volume of multiple tracks by an equal
+  amount and retaining the balance between tracks.</p>
+</li>
+</ul>
+<p><br/></p>
+<p>To amplify audio:</p>
+<ol>
+<li>
+<p>On the Tools toolbar, click the <strong>Selection tool</strong>.</p>
+<p><img src="/learning-audacity/assets/images/Tools Toolbar - Selection Tool.png"  /></p>
+</li>
+<li>
+<p>Select the track(s) or section(s) of audio that you want to amplify.</p>
+</li>
+<li>
+<p>Go to <strong>Effect</strong> &gt; <strong>Amplify</strong>.</p>
+</li>
+<li>
+<p>In the dialog box, configure your preferred amplification settings.</p>
+<p><img src="/learning-audacity/assets/images/Amplify dialog box.png" /></p>
+<details class="solid-gear">
+<summary>Configuration</summary>
+<p><h4>Amplification (dB)</h4>
+This setting controls the amount of amplification (measured in decibels or dB) to apply to the audio selection. An amplification of X dB means that all parts of the audio will get amplified equally by X dB. For example, an amplification of 2 dB means that all parts of the audio will get amplified equally by 2 dB.</p>
+<blockquote>
+<p><strong>Note:</strong> The <strong>Amplification (dB)</strong> and <strong>New Peak Amplitude (dB)</strong> values correspond with each other. Changing either of these values will also update the other value. As a result, you can change the amplification by adjusting either of these two values. </p>
+</blockquote>
+<p><br/>
+Change the amplification using the <strong>value box</strong> or <strong>slider</strong>:</p>
+<ul>
+<li>
+<p>To increase the amplification and volume level, drag the slider to the right.</p>
+</li>
+<li>
+<p>To decrease the amplification and volume level, drag the slider to the left.</p>
+</li>
+</ul>
+<blockquote>
+<p><strong>Note:</strong> By default, Audacity prevents you from increasing the amplification any further once the new peak amplitude reaches 0 dB to prevent audio clipping and distortion. To apply more amplification than what is allowed by default, enable <strong>Allow clipping</strong>.</p>
+</blockquote>
+<p><br/>
+<h4>New peak amplitude (dB)</h4></p>
+<p>This setting controls the audio selection’s maximum amplitude peak (or loudest point). Change the new peak amplitude using the <strong>value box</strong>.</p>
+<blockquote>
+<p><strong>Tip:</strong> You can match volume levels of different tracks and audio selections by monitoring the Playback meter toolbar.<br />
+    To match volume levels:<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;1. Play the track or audio selection whose volume you want to match.  <br/>&nbsp;&nbsp;&nbsp;&nbsp;2. On the <strong>Playback meter toolbar</strong>, keep track of the <strong>maximum peak level</strong>, which is indicated by a blue line.
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="/learning-audacity/assets/images/Recording Meter Toolbar - Recording Level - Maximum Peak Level.png" /><br/>&nbsp;&nbsp;&nbsp;&nbsp;3. After playback, estimate the maximum peak level’s decibel value.<br/>&nbsp;&nbsp;&nbsp;&nbsp;4. Enter the estimated decibel value in the <strong>New Peak Amplitude (dB)</strong> value box.</p>
+</blockquote>
+<p><br/>
+<h4>Allow clipping</h4></p>
+<p>This setting allows amplitude peaks to exceed 0 dB, which may result in audio clipping and distortion. To increase the amplification beyond the non-clipping range, check this <strong>box</strong>.</p>
+</details>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>You may need to <a href="/learning-audacity/playing-and-recording-a-project/monitor-audio/#monitor-playback-level">monitor playback level</a> and configure the settings through trial and error until you get your preferred result. To preview the audio before applying the settings, click <strong>Preview</strong>.</p>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>To save the amplification settings as a preset for future use, click <strong>Presets</strong> <strong>&amp; settings</strong> &gt; <strong>Save Preset</strong>.</p>
+</div>
+</li>
+<li>
+<p>Click <strong>Apply</strong>.</p>
+</li>
+</ol>
+<p><br/></p>
+<h2 id="normalize-audio">Normalize audio</h2>
+<p>Normalizing audio using the <strong>Normalize effect</strong> allows you to set an audio selection’s maximum amplitude (or loudest point) to a specific decibel value (up to 0 dB). This increases or decreases the volume level proportionally without changing its dynamic range. It also allows you to match volume levels across multiple tracks to ensure that the audio is around the same volume.</p>
+<p>Normalization is useful for:</p>
+<ul>
+<li>
+<p>Increasing the volume of quiet audio without clipping.</p>
+</li>
+<li>
+<p>Making multiple tracks that were recorded at different volume levels the same volume.</p>
+</li>
+<li>
+<p>Removing DC offset if the recorded or imported audio isn’t centered at the 0.0 line on the Vertical scale.</p>
+</li>
+</ul>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>Before mixing or exporting, you should normalize all tracks to match the volume levels in the project.</p>
+</div>
+<p><br/></p>
+<p>To normalize audio:</p>
+<ol>
+<li>
+<p>On the Tools toolbar, click the <strong>Selection tool</strong>.</p>
+<p><img src="/learning-audacity/assets/images/Tools Toolbar - Selection Tool.png" /></p>
+</li>
+<li>
+<p>Select the track(s) or section(s) of audio that you want to normalize.</p>
+</li>
+<li>
+<p>Go to <strong>Effect</strong> &gt; <strong>Normalize</strong>.</p>
+</li>
+<li>
+<p>In the dialog box, configure your preferred normalization settings.</p>
+<p><img src="/learning-audacity/assets/images/Normalize dialog box.png" /></p>
+<details class="solid-gear">
+<summary>Configuration</summary>
+<p><h4>Remove DC offset (center on 0.0 vertically)</h4></p>
+<p>This setting centers the waveform at the 0.0 line on the Vertical scale. </p>
+<p><img src="/learning-audacity/assets/images/Vertical Scale - DC offset.png" /></p>
+<p>To prevent audio clipping and distortion caused by DC offset, check this <strong>box</strong>.</p>
+<p><br/>
+<h4>Normalize peak amplitude<strong> </strong>to __ dB</h4></p>
+<p>This setting sets a volume limit (measured in decibels or dB) on the loudest part of the audio selection. Normalizing the peak amplitude to X dB means that the volume will be increased until the loudest part of the audio reaches X dB. For example, normalizing the peak amplitude to -1 dB means that the loudest part of the audio won’t exceed -1 dB.<br/></p>
+<p>To normalize the peak amplitude to a specific decibel level, check this <strong>box</strong> and enter the decibel level in the <strong>value box</strong>.</p>
+<p><br/>
+ <h4>Normalize stereo channels independently</h4></p>
+<p>This setting adjusts the amplitude separately on each channel and makes the audio on both channels sound equal. To normalize a stereo track that contains audio that has been recorded at different volume levels, check this <strong>box</strong>.</p>
+</details>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>You may need to <a href="/learning-audacity/playing-and-recording-a-project/monitor-audio/#monitor-playback-level">monitor playback level</a> and configure the settings through trial and error until you get your preferred result. To preview the audio before applying the settings, click <strong>Preview</strong>.</p>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>To save the normalization settings as a preset for future use, click <strong>Presets &amp; settings</strong> &gt; <strong>Save Preset</strong>.</p>
+</div>
+</li>
+<li>
+<p>Click <strong>Apply</strong>.</p>
+</li>
+</ol>
+<p><br/></p>
+<h2 id="compress-audio">Compress audio</h2>
+<p>Compressing audio using the <strong>Compressor effect</strong> allows you to reduce an audio selection’s dynamic range to make loud sections of audio quieter and quiet sections of audio louder. It also allows you to create a more uniform sound throughout a track.</p>
+<p>Compression is useful for:</p>
+<ul>
+<li>
+<p>Decreasing the volume of loud audio.</p>
+</li>
+<li>
+<p>Evening out a track’s volume levels to make both of its quiet and loud
+  sections sound clearer without compromising vocal quality.</p>
+</li>
+</ul>
+<p><br/></p>
+<p>To compress audio:</p>
+<ol>
+<li>
+<p>On the Tools toolbar, click the <strong>Selection tool</strong>.</p>
+<p><img src="/learning-audacity/assets/images/Tools Toolbar - Selection Tool.png" /></p>
+</li>
+<li>
+<p>Select the track(s) or section(s) of audio that you want to compress.</p>
+</li>
+<li>
+<p>Go to <strong>Effect</strong> &gt; <strong>Compressor</strong>.</p>
+</li>
+<li>
+<p>In the dialog box, configure your preferred compression settings.</p>
+<p><img src="/learning-audacity/assets/images/Compressor dialog box.png" /></p>
+<p><em>The dialog box contains a line graph that shows how the compressor will change the audio’s dynamic range. The horizontal axis shows the input dB level, while the vertical axis shows the output dB level. The graph changes as you adjust the Threshold and Ratio sliders.</em></p>
+<details class="solid-gear">
+<summary>Configuration</summary>
+<p><h4>Threshold</h4>
+This setting sets the decibel level above which audio gets compressed. It determines how loud the audio must be before compression begins. A threshold of X dB means that audio that exceeds X dB will get compressed. For example, a threshold of -15 dB means that any part of the audio that gets louder than -15 dB will get compressed.</p>
+<p>Change the threshold using the <strong>slider</strong>:</p>
+<ul>
+<li>
+<p>To increase the threshold and compress less audio, drag the slider to the right.</p>
+</li>
+<li>
+<p>To decrease the threshold and compress more audio, drag the slider to the left.</p>
+</li>
+</ul>
+<p><br/></p>
+<p><h4>Noise floor</h4>
+This setting sets the decibel level below which audio is considered background noise and won’t get amplified after compression. It prevents the compressor from increasing background noise levels during silent pauses in the audio signal. A noise floor of X dB means that audio below X dB will be considered background noise and won’t get amplified. For example, a noise floor of -40 dB means that any part of the audio that’s quieter than -40 dB will be considered background noise and won’t get amplified.</p>
+<p>Change the noise floor using the <strong>slider</strong>:</p>
+<ul>
+<li>
+<p>To increase the noise floor and decrease the volume level of background noise during pauses, drag the slider to the right.</p>
+</li>
+<li>
+<p>To decrease the noise floor and increase the volume level of background noise during pauses, drag the slider to the left.</p>
+</li>
+</ul>
+<p><br/>
+<h4>Ratio</h4>
+This setting controls the relative amount of compression to apply to the audio selection compared to the specified threshold. A ratio of X:Y means that audio that exceeds the threshold by X dB will be decreased by Y dB. For example, a ratio of 4:2 means that any part of the audio that gets louder than the threshold by 4 dB will get decreased by 2 dB.</p>
+<p>Change the ratio using the <strong>slider</strong>:</p>
+<ul>
+<li>
+<p>To increase the ratio and compress more loud parts of audio, drag the slider to the right.</p>
+</li>
+<li>
+<p>To decrease the ratio and compress fewer loud parts of audio, drag the slider to the left.</p>
+</li>
+</ul>
+<p><br/>
+<h4>Attack time</h4>
+This setting controls how fast the compressor begins compressing a volume change when it detects that the audio signal has exceeded the threshold.</p>
+<p>Change the attack time using the <strong>slider</strong>:</p>
+<ul>
+<li>
+<p>To increase the attack time and start compression quicker, drag the slider to the right.</p>
+</li>
+<li>
+<p>To decrease the attack time and start compression slower, drag the slider to the left.</p>
+</li>
+</ul>
+<p><br/>
+<h4>Release time</h4>
+This setting controls how fast the compressor stops compressing a volume change when it detects that the audio signal no longer exceeds the threshold.</p>
+<p>Change the release time using the <strong>slider</strong>:</p>
+<ul>
+<li>
+<p>To increase the release time and stop compression slower, drag the slider to the right.</p>
+</li>
+<li>
+<p>To decrease the release time and stop compression quicker, drag the slider to the left.</p>
+</li>
+</ul>
+<p><br/>
+<h4>Make-up gain for 0 dB after compressing</h4>
+This setting compensates for the decrease in peak volume during compression and amplifies the audio to a peak level of 0 dB. To make the quieter parts of audio louder and increase the overall volume level without clipping, check this <strong>box</strong>.</p>
+<p><br/>
+<h4>Compress based on peaks</h4>
+This setting sets the threshold and gain adjustments using the waveform’s peak values instead of the average value of its highest and lowest points. To increase the volume of all sounds and amplify the louder sounds that exceed the threshold less than the quieter sounds below the threshold, check this <strong>box</strong>.</p>
+</details>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>You may need to <a href="/learning-audacity/playing-and-recording-a-project/monitor-audio/#monitor-playback-level">monitor playback level</a> and configure the settings through trial and error until you get your preferred result. To preview the audio before applying the settings, click <strong>Preview</strong>.</p>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>To save the compression settings as a preset for future use, click <strong>Presets &amp; settings</strong> &gt; <strong>Save Preset</strong>.</p>
+</div>
+</li>
+<li>
+<p>Click <strong>Apply</strong>.</p>
+</li>
+</ol>
+<p><br/></p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../../editing-a-project/mix-tracks/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Mix tracks">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Mix tracks
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../gradually-change-volume-level/" class="md-footer__link md-footer__link--next" aria-label="Next: Gradually change volume level">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Gradually change volume level
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2025 Rachelle Gervacio
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://rgervacio.com/" target="_blank" rel="noopener" title="rgervacio.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M16.36 14c.08-.66.14-1.32.14-2s-.06-1.34-.14-2h3.38c.16.64.26 1.31.26 2s-.1 1.36-.26 2m-5.15 5.56c.6-1.11 1.06-2.31 1.38-3.56h2.95a8.03 8.03 0 0 1-4.33 3.56M14.34 14H9.66c-.1-.66-.16-1.32-.16-2s.06-1.35.16-2h4.68c.09.65.16 1.32.16 2s-.07 1.34-.16 2M12 19.96c-.83-1.2-1.5-2.53-1.91-3.96h3.82c-.41 1.43-1.08 2.76-1.91 3.96M8 8H5.08A7.92 7.92 0 0 1 9.4 4.44C8.8 5.55 8.35 6.75 8 8m-2.92 8H8c.35 1.25.8 2.45 1.4 3.56A8 8 0 0 1 5.08 16m-.82-2C4.1 13.36 4 12.69 4 12s.1-1.36.26-2h3.38c-.08.66-.14 1.32-.14 2s.06 1.34.14 2M12 4.03c.83 1.2 1.5 2.54 1.91 3.97h-3.82c.41-1.43 1.08-2.77 1.91-3.97M18.92 8h-2.95a15.7 15.7 0 0 0-1.38-3.56c1.84.63 3.37 1.9 4.33 3.56M12 2C6.47 2 2 6.5 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2"/></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="mailto:rgervacio@outlook.com" target="_blank" rel="noopener" title="" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m20 8-8 5-8-5V6l8 5 8-5m0-2H4c-1.11 0-2 .89-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://www.linkedin.com/in/rachelle-gervacio/" target="_blank" rel="noopener" title="www.linkedin.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3M135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5m282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.sections", "naviation.top", "search.suggest", "search.highlight", "navigation.footer", "content.tabs.link"], "search": "../../assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.60a45f97.min.js"></script>
+      
+    
+  </body>
+</html>
