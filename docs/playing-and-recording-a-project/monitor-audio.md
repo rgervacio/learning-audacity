@@ -20,7 +20,7 @@ To monitor recording level:
 
 2. Speak or play the instrument into the microphone at the same volume level you plan on speaking or playing when recording.
 
-3. Watch the Recording meter while speaking or playing and keep track of the input signal’s current peak level, recent peak level, and maximum peak level.
+3. Watch the Recording meter while speaking or playing and keep track of the input signal’s current peak level (green bar), recent peak level (orange line), and maximum peak level (blue line).
 
     <img src="/learning-audacity/assets/images/Recording Meter Toolbar - Recording Level - Peak Levels.png" /><br/>
 

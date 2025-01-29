@@ -635,7 +635,7 @@ The **cogwheel button** shows a dropdown menu with options to change the selecti
 
 ## Play-at-speed toolbar
 
-<img src="../assets/images/Play-at-Speed Slider.png" />
+<img src="../assets/images/Play-at-Speed Toolbar.png" />
 
 The **Play-at-speed toolbar** controls playback speed.
 
