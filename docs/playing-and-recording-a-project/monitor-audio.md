@@ -76,7 +76,7 @@ To monitor playback level:
     <img src="/learning-audacity/assets/images/Transport Toolbar - Play.png" />
 
 4. Watch the Playback meter and keep track of the output signal’s
-current peak level, recent peak level, and maximum peak level.
+current peak level (green bar), recent peak level (orange line), and maximum peak level (blue line).
 
     <img src="/learning-audacity/assets/images/Playback Meter Toolbar - Playback Level - Peak Levels.png" style="width:3.03087in;height:1.9685in" />
 

@@ -4,11 +4,11 @@ Exporting a project allows you to save your project as a specific audio file for
 
 !!! note 
 
-        All tracks in an exported project get <a href="/learning-audacity/editing-a-project/mix-tracks/">mixed</a> together as a single track. Before exporting the project, ensure that you’re finished editing and satisfied with the end result.
+    All tracks in an exported project get <a href="/learning-audacity/editing-a-project/mix-tracks/">mixed</a> together as a single track. Before exporting the project, ensure that you’re finished editing and satisfied with the end result.
 
 !!! tip
 
-        If the tracks have varying volume levels, you should <a href="/learning-audacity/applying-common-audio-effects/change-overall-volume-level/#normalize-audio">normalize</a> them before exporting the project to ensure that the overall volume is more consistent.
+     If the tracks have varying volume levels, you should <a href="/learning-audacity/applying-common-audio-effects/change-overall-volume-level/#normalize-audio">normalize</a> them before exporting the project to ensure that the overall volume is more consistent.
 
 <br/>
 
@@ -32,17 +32,17 @@ To export an audio selection:
 
     !!! tip 
 
-            If having a small file size is important, select a compressed file format, such as .mp3 or .aac. Compressed file formats produce a smaller file size and still retain good audio quality. If you’re not limited by file size, select an uncompressed file format, such as .wav or .aiff. Uncompressed file formats produce a larger file size but also result in the best audio quality.
+        If having a small file size is important, select a compressed file format, such as .mp3 or .aac. Compressed file formats produce a smaller file size and still retain good audio quality. If you’re not limited by file size, select an uncompressed file format, such as .wav or .aiff. Uncompressed file formats produce a larger file size but also result in the best audio quality.
 
     !!! note
 
-            To export a project as an .m4a, .aac, or .wma file, you must first install the <a href="https://manual.audacityteam.org/man/faq_installing_the_ffmpeg_import_export_library.html" target="_blank">FFMPEG library</a> in Audacity.
+        To export a project as an .m4a, .aac, or .wma file, you must first install the <a href="https://manual.audacityteam.org/man/faq_installing_the_ffmpeg_import_export_library.html" target="_blank">FFMPEG library</a> in Audacity.
 
 6. Under **Format Options**, select your preferred format settings.
 
     !!! note
 
-            The default format settings work well for most projects.
+        The default format settings work well for most projects.
 
 7. Click **Save**.
 

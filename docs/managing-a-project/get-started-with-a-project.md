@@ -58,10 +58,10 @@ To import an audio file:
 
     !!! tip
 
-            Another way to import an audio file is to drag it into the project window.
+        Another way to import an audio file is to drag it into the project window.
     
     !!! note  
      
-            If the imported audio’s waveform isn’t centered at the 0.0 line on the Vertical scale, you should <a href="/learning-audacity/applying-common-audio-effects/change-overall-volume-level#normalize-audio">normalize the track</a> to remove the DC offset before editing and applying effects. DC offset can result in clipping, distortion, and popping sounds.  
+        If the imported audio’s waveform isn’t centered at the 0.0 line on the Vertical scale, you should <a href="/learning-audacity/applying-common-audio-effects/change-overall-volume-level#normalize-audio">normalize the track</a> to remove the DC offset before editing and applying effects. DC offset can result in clipping, distortion, and popping sounds.  
 
-            <img src="/learning-audacity/assets/images/Vertical Scale - DC offset.png" />
+        <img src="/learning-audacity/assets/images/Vertical Scale - DC offset.png" />

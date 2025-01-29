@@ -193,7 +193,7 @@ The **Transport toolbar** contains buttons for playing and recording audio.
 
 ## Tools toolbar
 
-<img src="../assets/images/Tools Toolbar - Selection Tool.png" />
+<img src="../assets/images/Tools Toolbar.png" />
 
 The **Tools toolbar** contains buttons for selecting audio, smoothening volume levels, and redrawing waveforms.
 

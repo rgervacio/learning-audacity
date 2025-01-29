@@ -37,7 +37,7 @@ To split clips:
 
         !!! tip 
 
-                You can <a href="/learning-audacity/managing-a-project/manage-tracks/#name-a-clip-inside-a-track">name clips</a> to identify specific sections of audio and better organize your project.
+            You can <a href="/learning-audacity/managing-a-project/manage-tracks/#name-a-clip-inside-a-track">name clips</a> to identify specific sections of audio and better organize your project.
 
 <br/>
 
@@ -55,7 +55,7 @@ To join clips:
 
     !!! note
 
-            Joining clips without a waveform between them will replace the gap with a flat waveform (silence). To join clips without inserting a flat waveform, <a href="/learning-audacity/editing-a-project/move-and-align-audio/#move-a-clip">move the clips</a> next to each other until they snap together.
+        Joining clips without a waveform between them will replace the gap with a flat waveform (silence). To join clips without inserting a flat waveform, <a href="/learning-audacity/editing-a-project/move-and-align-audio/#move-a-clip">move the clips</a> next to each other until they snap together.
 
 3. Go to **Edit** \> **Audio Clips** \> **Join**.
 

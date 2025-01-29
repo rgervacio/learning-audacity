@@ -33,7 +33,7 @@ To play at a specific playback speed:
 
 1. On the Play-at-speed toolbar, drag the **Play-at-speed slider**:
 
-    <img src="/learning-audacity/assets/images/Play-at-Speed Slider.png" />
+    <img src="/learning-audacity/assets/images/Play-at-Speed Toolbar.png" />
 
       - To increase the playback speed, drag the slider to the right.
 
